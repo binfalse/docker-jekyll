@@ -9,9 +9,10 @@ RUN apt-get update \
     libc-dev \
     ruby \
     ruby-dev \
+    ruby-execjs \
     ruby-pygments.rb \
     locales \
- && gem install jekyll jekyll-paginate jekyll-sitemap \
+ && gem install jekyll jekyll-paginate jekyll-sitemap jekyll-minifier \
  && apt-get purge -y -q --autoremove \
     gcc \
     make \
