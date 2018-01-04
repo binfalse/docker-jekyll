@@ -12,6 +12,7 @@ The [Dockerfile](https://github.com/binfalse/docker-jekyll/blob/master/Dockerfil
     * [jekyll-paginate](https://jekyllrb.com/docs/pagination/)
     * [jekyll-sitemap](https://github.com/jekyll/jekyll-sitemap)
     * [jekyll-minifier](https://github.com/digitalsparky/jekyll-minifier/issues)
+    * [jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag)
 
 In addition, it has a volume `/jekyll` configured, where your jekyll porject should be mounted.
 

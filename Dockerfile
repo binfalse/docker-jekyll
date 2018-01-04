@@ -21,6 +21,7 @@ MAINTAINER martin scharm
 RUN apt-get update \
  && apt-get install -y -q --no-install-recommends \
     gcc \
+    g++ \
     make \
     libc-dev \
     ruby \
@@ -28,9 +29,10 @@ RUN apt-get update \
     ruby-execjs \
     ruby-pygments.rb \
     locales \
- && gem install jekyll jekyll-paginate jekyll-sitemap jekyll-minifier \
+ && gem install jekyll jekyll-paginate jekyll-sitemap jekyll-minifier jekyll-seo-tag \
  && apt-get purge -y -q --autoremove \
     gcc \
+    g++ \
     make \
     libc-dev \
     ruby-dev \
