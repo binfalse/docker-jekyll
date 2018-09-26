@@ -29,7 +29,7 @@ RUN apt-get update \
     ruby-execjs \
     ruby-pygments.rb \
     locales \
- && gem install jekyll jekyll-paginate jekyll-sitemap jekyll-minifier jekyll-seo-tag \
+ && gem install jekyll jekyll-paginate jekyll-sitemap jekyll-minifier jekyll-seo-tag bundler jekyll-feed jekyll-redirect-from \
  && apt-get purge -y -q --autoremove \
     gcc \
     g++ \
