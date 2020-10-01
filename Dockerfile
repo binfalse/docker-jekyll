@@ -29,7 +29,7 @@ RUN apt-get update \
     ruby-execjs \
     ruby-pygments.rb \
     locales \
- && gem install jekyll jekyll-paginate jekyll-paginate-v2 jekyll-sitemap jekyll-minifier jekyll-seo-tag bundler jekyll-feed jekyll-redirect-from jekyll-watch i18n \
+ && gem install jekyll jekyll-paginate jekyll-paginate-v2 jekyll-sitemap jekyll-minifier jekyll-seo-tag bundler jekyll-feed jekyll-redirect-from jekyll-watch i18n jekyll-katex \
  && gem install sassc -- --disable-march-tune-native \
  && apt-get purge -y -q --autoremove \
     gcc \
